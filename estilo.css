@@ -55,6 +55,49 @@ html{
     cursor: pointer;
     display: none;
 }
+/* Estilo base del menú (en pantallas grandes) */
+#nav {
+    display: flex;
+  }
+  
+  #nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  #nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive: ocultar menú y mostrar botón hamburguesa */
+  @media screen and (max-width: 768px) {
+    #nav {
+      display: none;
+      position: absolute;
+      top: 70px; /* o lo que mida tu header */
+      left: 0;
+      width: 100%;
+      background-color: #BDC9D9; /* o el color que uses */
+    }
+  
+    #nav.open {
+      display: block;
+    }
+  
+    #nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-responsive {
+      display: block;
+      color: black;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(59, 64, 66, 0.8), rgba(59, 64,66,0.8)),
@@ -528,4 +571,5 @@ footer .arriba{
         width: 100%;
     }
 }
+
 
