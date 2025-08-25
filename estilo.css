@@ -54,12 +54,11 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
-    font-size: 24px;
-}    
+}
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(59, 64, 66, 0.8), rgba(59, 64,66,0.8)),
-    url(F1.jpg);
+    url(img/fondo.jpeg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -528,9 +527,4 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
-
 }
-
-
-
-
