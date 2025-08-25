@@ -55,7 +55,12 @@ html{
     cursor: pointer;
     display: none;
     font-size: 24px;
+   
 }
+nav.open{
+    display: block;
+}
+    
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(59, 64, 66, 0.8), rgba(59, 64,66,0.8)),
@@ -530,4 +535,5 @@ footer .arriba{
     }
 
 }
+
 
