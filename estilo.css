@@ -49,11 +49,12 @@ html{
 }
 .nav-responsive{
     background-color: #FFFFFF;
-    color:#fff;
+    color:#000;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
+    font-size: 24px;
 }
 /* SECCION I N I C I O */
 .inicio{
@@ -529,3 +530,4 @@ footer .arriba{
     }
 
 }
+
